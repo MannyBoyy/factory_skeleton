@@ -7,7 +7,11 @@ from ingredients.veggies.RedPepper import RedPepper
 from ingredients.veggies.Onion import Onion
 from ingredients.pepperoni.SlicedPepperoni import SlicedPepperoni
 from ingredients.clams.FreshClams import FreshClams
-from PizzaIngredientFactory import PizzaIngredientFactory
+from ingredient_factories.PizzaIngredientFactory import PizzaIngredientFactory
+# this is why this is a factory this NYPizzaingredientsFactory holds
+# all the ingredients that THIS region uses. This is sending
+# to the PizzaStore the info that is needed for NY pizza
+# and so with the Chicago one as well
 
 
 class NYPizzaIngredientFactory(PizzaIngredientFactory):

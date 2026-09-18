@@ -1,5 +1,8 @@
 from abc import ABC, abstractmethod
-
+# to understand: Customer order pizza -> PizzaStore.order_pizza() ->
+# Either NY/Chicago create_pizza() -> Chose which PizzaType and ingredients ->
+# Pizza.prepare() -> as factory for ingredients -> Ny/chicago ingredients ->
+# then we bake cut and box
 
 class PizzaStore(ABC):
 

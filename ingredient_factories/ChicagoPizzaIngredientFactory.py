@@ -6,7 +6,7 @@ from ingredients.veggies.BlackOlives import BlackOlives
 from ingredients.veggies.Spinach import Spinach
 from ingredients.pepperoni.SlicedPepperoni import SlicedPepperoni
 from ingredients.clams.FrozenClams import FrozenClams
-from PizzaIngredientFactory import PizzaIngredientFactory
+from ingredient_factories.PizzaIngredientFactory import PizzaIngredientFactory
 
 
 class ChicagoPizzaIngredientFactory(PizzaIngredientFactory):

@@ -7,6 +7,7 @@ from ingredients.dough.Dough import Dough
 from ingredients.pepperoni.Pepperoni import Pepperoni
 from ingredients.sauce.Sauce import Sauce
 from ingredients.veggies.Veggies import Veggies
+# so we use all these abstractions for the specific pizzas.
 
 
 class Pizza(ABC):
@@ -20,7 +21,7 @@ class Pizza(ABC):
 
     @abstractmethod
     def prepare(self) -> None:
-        pass
+        print(f'{self._name}')
 
     def bake(self) -> None:
         print('Bake for 25 minutes at 350')

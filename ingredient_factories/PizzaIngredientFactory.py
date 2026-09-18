@@ -1,4 +1,6 @@
 from abc import ABC, abstractmethod
+# main abstraction that holds onto the ingredients
+# and pizza making. Here is the most biggest changes that happen
 
 
 class PizzaIngredientFactory(ABC):
